@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Muskan Begum | Portfolio</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI;
+scroll-behavior:smooth;
+}
+
+body{
+background-color:#eef2f7 ;
+color:#333;
+}
+
+/* NAVBAR */
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 80px;
+background:#111;
+color:white;
+position:sticky;
+top:0;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:25px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-weight:500;
+}
+
+nav a:hover{
+color:#667eea;
+}
+
+/* HERO */
+
+.hero{
+height:90vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(120deg,#ff9a9e,#fad0c4,#a18cd1,#667eea);
+background-size:400% 400%;
+animation:gradientMove 10s infinite alternate;
+color:white;
+}
+
+.hero-content{
+display:flex;
+align-items:center;
+gap:40px;
+}
+
+.profile-pic{
+width:130px;
+border-radius:50%;
+border:4px solid white;
+}
+
+.hero h1{
+font-size:50px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+}
+
+/* GRADIENT ANIMATION */
+
+@keyframes gradientMove{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* SECTIONS */
+
+section{
+padding:80px 10%;
+text-align:center;
+}
+
+h2{
+margin-bottom:40px;
+font-size:32px;
+}
+
+/* ABOUT */
+
+.about{
+background:white;
+max-width:900px;
+margin:auto;
+line-height:1.7;
+}
+
+.about-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+}
+
+.about-img{
+width:120px;
+}
+
+/* SKILLS */
+
+.skills{
+background:#eef2f7;
+}
+
+.skills-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.skill-card{
+background:white;
+padding:15px 25px;
+border-radius:20px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+display:flex;
+align-items:center;
+gap:10px;
+}
+
+.skill-card img{
+width:25px;
+}
+
+.skill-card:hover{
+transform:scale(1.1);
+background:#667eea;
+color:white;
+}
+
+/* PROJECTS */
+
+.project-container{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:35px;
+max-width:1100px;
+margin:auto;
+}
+
+.project-card{
+width:300px;
+background:white;
+border-radius:15px;
+overflow:hidden;
+box-shadow:0 10px 20px rgba(0,0,0,0.1);
+transition:0.3s;
+text-align:left;
+}
+
+.project-card img{
+width:100%;
+height:180px;
+object-fit:cover;
+}
+
+.project-card h3{
+padding:15px;
+}
+
+.project-card p{
+padding:0 15px 20px 15px;
+font-size:14px;
+}
+
+.project-card:hover{
+transform:translateY(-8px);
+}
+
+/* CONTACT */
+
+.contact{
+background:#222;
+color:white;
+}
+
+.contact p{
+margin:10px 0;
+}
+
+/* FOOTER */
+
+footer{
+text-align:center;
+padding:20px;
+background:black;
+color:white;
+}
+
+#about{
+margin-top:20px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+
+<nav>
+
+<ul>
+
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+</nav>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div class="hero-content">
+
+<img class="profile-pic" src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png">
+
+<div class="hero-text">
+
+<h1>Hi, I'm Muskan Begum 👋</h1>
+
+<p>AI & ML Engineering Student | Full Stack Developer</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="about">
+
+<h2>About Me</h2>
+
+<div class="about-container">
+
+<img src="https://cdn-icons-png.flaticon.com/512/6997/6997665.png" class="about-img">
+
+<p>
+I am an engineering student passionate about Artificial Intelligence,
+web development and solving real world problems using technology.
+I enjoy building interactive applications and learning new tools.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- SKILLS -->
+
+<section id="skills" class="skills">
+
+<h2>Skills</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
+Python
+</div>
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
+Java
+</div>
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png">
+SQL
+</div>
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png">
+Git
+</div>
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
+HTML
+</div>
+
+<div class="skill-card">
+<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
+CSS
+</div>
+
+</div>
+
+</section>
+
+
+<!-- PROJECTS -->
+
+<section id="projects" class="projects">
+
+<h2>Projects</h2>
+
+<div class="project-container">
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f">
+
+<h3>Expense Tracker</h3>
+
+<p>
+A web application that helps users track daily expenses and manage spending.
+</p>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
+
+<h3>CafeBliss Website</h3>
+
+<p>
+A cafe website showcasing menu items and food cards using HTML and CSS.
+</p>
+
+</div>
+
+
+<div class="project-card">
+
+<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
+
+<h3>AI Code Explainer</h3>
+
+<p>
+Interactive Python learning tool that explains and runs code with voice output.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: muskanmuskan31302@gmail.com</p>
+
+<p>Phone: 9110270438</p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>© 2026 Muskan Begum | Portfolio</p>
+
+</footer>
+
+</body>
+
+</html>
