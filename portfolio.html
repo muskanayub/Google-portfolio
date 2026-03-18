@@ -18,7 +18,7 @@ scroll-behavior:smooth;
 }
 
 body{
-background-color:#eef2f7 ;
+background-color:#eef2f7;
 color:#333;
 }
 
@@ -192,8 +192,23 @@ padding:15px;
 }
 
 .project-card p{
-padding:0 15px 20px 15px;
+padding:0 15px 10px 15px;
 font-size:14px;
+}
+
+.project-card a{
+display:inline-block;
+margin:10px 15px 20px;
+padding:8px 15px;
+background:#667eea;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-size:14px;
+}
+
+.project-card a:hover{
+background:#4f5bd5;
 }
 
 .project-card:hover{
@@ -220,10 +235,6 @@ background:black;
 color:white;
 }
 
-#about{
-margin-top:20px;
-}
-
 </style>
 
 </head>
@@ -235,16 +246,13 @@ margin-top:20px;
 <nav>
 
 <ul>
-
 <li><a href="#about">About</a></li>
 <li><a href="#skills">Skills</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#contact">Contact</a></li>
-
 </ul>
 
 </nav>
-
 
 <!-- HERO -->
 
@@ -255,17 +263,13 @@ margin-top:20px;
 <img class="profile-pic" src="https://cdn-icons-png.flaticon.com/512/6997/6997662.png">
 
 <div class="hero-text">
-
 <h1>Hi, I'm Muskan Begum 👋</h1>
-
 <p>AI & ML Engineering Student | Full Stack Developer</p>
-
 </div>
 
 </div>
 
 </section>
-
 
 <!-- ABOUT -->
 
@@ -287,7 +291,6 @@ I enjoy building interactive applications and learning new tools.
 
 </section>
 
-
 <!-- SKILLS -->
 
 <section id="skills" class="skills">
@@ -296,40 +299,16 @@ I enjoy building interactive applications and learning new tools.
 
 <div class="skills-container">
 
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">
-Python
-</div>
-
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">
-Java
-</div>
-
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png">
-SQL
-</div>
-
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png">
-Git
-</div>
-
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">
-HTML
-</div>
-
-<div class="skill-card">
-<img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">
-CSS
-</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968350.png">Python</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/226/226777.png">Java</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/4248/4248443.png">SQL</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111288.png">Git</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732212.png">HTML</div>
+<div class="skill-card"><img src="https://cdn-icons-png.flaticon.com/512/732/732190.png">CSS</div>
 
 </div>
 
 </section>
-
 
 <!-- PROJECTS -->
 
@@ -340,47 +319,50 @@ CSS
 <div class="project-container">
 
 <div class="project-card">
+<img src="https://images.unsplash.com/photo-1555949963-aa79dcee981c">
+<h3>AI Code Debugger Runner Explainer</h3>
+<p>AI powered tool that explains and debugs Python code.</p>
+<a href="https://github.com/muskanayub/AI-code-debugger-runner-explainer" target="_blank">View Project</a>
+</div>
 
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71">
+<h3>CampusPro AI Bot</h3>
+<p>AI assistant for college students to access campus information.</p>
+<a href="https://github.com/muskanayub/CampusPro-AI_Bot" target="_blank">View Project</a>
+</div>
+
+<div class="project-card">
 <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f">
-
 <h3>Expense Tracker</h3>
-
-<p>
-A web application that helps users track daily expenses and manage spending.
-</p>
-
+<p>A web application that tracks daily expenses.</p>
+<a href="https://github.com/muskanayub/Expense-tracker" target="_blank">View Project</a>
 </div>
 
-
 <div class="project-card">
-
 <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836">
-
-<h3>CafeBliss Website</h3>
-
-<p>
-A cafe website showcasing menu items and food cards using HTML and CSS.
-</p>
-
+<h3>Cafe Bliss</h3>
+<p>Cafe website UI built using HTML and CSS.</p>
+<a href="https://github.com/muskanayub/Cafe-bliss" target="_blank">View Project</a>
 </div>
 
+<div class="project-card">
+<img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3">
+<h3>CollegeConnect</h3>
+<p>A platform connecting students with opportunities.</p>
+<a href="https://github.com/muskanayub/CollegeConnect" target="_blank">View Project</a>
+</div>
 
 <div class="project-card">
-
-<img src="https://images.unsplash.com/photo-1518770660439-4636190af475">
-
-<h3>AI Code Explainer</h3>
-
-<p>
-Interactive Python learning tool that explains and runs code with voice output.
-</p>
-
+<img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085">
+<h3>Google Portfolio UI</h3>
+<p>Google UI clone with portfolio navigation.</p>
+<a href="https://github.com/muskanayub/Google-portfolio" target="_blank">View Project</a>
 </div>
 
 </div>
 
 </section>
-
 
 <!-- CONTACT -->
 
@@ -389,11 +371,9 @@ Interactive Python learning tool that explains and runs code with voice output.
 <h2>Contact</h2>
 
 <p>Email: muskanmuskan31302@gmail.com</p>
-
 <p>Phone: 9110270438</p>
 
 </section>
-
 
 <!-- FOOTER -->
 
